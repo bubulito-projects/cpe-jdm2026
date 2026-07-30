@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Career Day 2026 — Grow Your Success | CPE Lyon</title>
+  <meta name="description" content="CPE Lyon Career Day 2026: meet innovative companies, discover engineering careers with real impact, and grow your responsible future. March 12, 2026." />
+  <meta property="og:title" content="Career Day 2026 — Grow Your Success" />
+  <meta property="og:description" content="Meet, exchange, get inspired, and build your responsible future at CPE Lyon Career Day 2026." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/grow.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body class="is-landing">
+  <a class="skip" href="#main" data-en="Skip to content">Aller au contenu</a>
+  <div class="loader" id="loader"><div class="loader__ring" aria-hidden="true"></div></div>
+  <div id="site-nav"></div>
+
+  <main id="main">
+    <!-- HERO — single screen: title + stats + CTA + animated SVG -->
+    <section class="hero hero--single">
+      <div class="container hero__grid">
+        <div>
+          <span class="chip" data-en="JDM 2026 · March 12 · CPE Lyon">JDM 2026 · 12 mars · CPE Lyon</span>
+          <h1 class="hero__title">
+            <span data-en="Grow">Grow</span>
+            <span data-en="Your">Your</span>
+            <span class="hero__accent" data-en="Success">Success</span>
+          </h1>
+          <p class="hero__lead" data-en="One day where curious students meet committed companies — connect, get inspired, and shape a responsible engineering future.">
+            Une journée où des étudiants curieux rencontrent des entreprises engagées :
+            créer des liens, s’inspirer et construire une ingénierie responsable.
+          </p>
+          <div class="hero__cta">
+            <button class="btn btn--primary btn--lg" data-modal-open="registerModal" data-en="Register free">Je m’inscris</button>
+            <a class="btn btn--ghost btn--lg" href="program.html" data-en="Explore the program">Le programme</a>
+          </div>
+          <ul class="stats">
+            <li><span class="stat__num" data-count="60" data-suffix="+">0</span><span class="stat__lbl" data-en="Companies">Entreprises</span></li>
+            <li><span class="stat__num" data-count="1200" data-suffix="+">0</span><span class="stat__lbl" data-en="Students">Étudiants</span></li>
+            <li><span class="stat__num" data-count="24">0</span><span class="stat__lbl" data-en="Workshops">Ateliers</span></li>
+            <li><span class="stat__num" data-count="8">0</span><span class="stat__lbl" data-en="Hours">Heures</span></li>
+          </ul>
+        </div>
+
+        <!-- ===== Animated SVG illustration: the growth story ===== -->
+        <div class="hero__right">
+          <div class="grow" role="img" aria-label="Illustration of a seed growing into an upward success sprout">
+            <svg class="grow__svg" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <radialGradient id="gHalo" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="var(--sand)" stop-opacity=".95" />
+                  <stop offset="60%" stop-color="var(--sky)" stop-opacity=".45" />
+                  <stop offset="100%" stop-color="var(--cream)" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="gLeafA" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="var(--olive)" />
+                  <stop offset="100%" stop-color="var(--moss)" />
+                </linearGradient>
+                <linearGradient id="gLeafB" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="var(--sky)" />
+                  <stop offset="100%" stop-color="var(--moss-deep)" />
+                </linearGradient>
+                <linearGradient id="gSoil" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="var(--clay-soft)" />
+                  <stop offset="100%" stop-color="var(--clay)" />
+                </linearGradient>
+                <path id="leafShape" d="M0,0 C26,-30 74,-30 104,-4 C74,26 26,26 0,0 Z" />
+                <clipPath id="gPhotoClip"><circle cx="200" cy="252" r="118" /></clipPath>
+                <path id="sealPath" d="M200,110 a142,142 0 1,1 -0.1,0" />
+
+              </defs>
+
+              <!-- ambient light + provisional JDM emblem -->
+              <g class="grow__layer" style="--depth:.35">
+                <circle class="grow__halo" cx="200" cy="250" r="185" fill="url(#gHalo)" />
+                <circle cx="200" cy="252" r="128" fill="var(--paper)" opacity=".85" />
+                <g clip-path="url(#gPhotoClip)" opacity=".55">
+                  <image href="assets/images/campus-1.jpg" x="82" y="134" width="236" height="236"
+                         preserveAspectRatio="xMidYMid slice" />
+                </g>
+                <circle cx="200" cy="252" r="118" fill="none" stroke="var(--paper)" stroke-width="4" opacity=".8" />
+
+                <!-- provisional logo / seal -->
+                <g class="grow__seal">
+                  <circle cx="200" cy="252" r="150" fill="none" stroke="var(--moss)" stroke-opacity=".28"
+                          stroke-width="1.5" stroke-dasharray="2 9" stroke-linecap="round" />
+                  <circle cx="200" cy="252" r="136" fill="none" stroke="var(--clay)" stroke-opacity=".35" stroke-width="1" />
+                  <g class="grow__sealspin">
+                    <text class="grow__sealtxt" fill="var(--moss)" fill-opacity=".55">
+                      <textPath href="#sealPath" startOffset="0">
+                        CAREER DAY · JOURNÉE DES MÉTIERS · CPE LYON · 12.03.2026 ·
+                      </textPath>
+                    </text>
+                  </g>
+                </g>
+              </g>
+
+
+              <!-- soil / ground -->
+              <g class="grow__layer" style="--depth:.15">
+                <g class="grow__ground">
+                  <ellipse cx="200" cy="436" rx="118" ry="26" fill="var(--moss)" opacity=".12" />
+                  <path d="M96,432 C120,404 172,394 200,394 C228,394 280,404 304,432 C264,446 136,446 96,432 Z" fill="url(#gSoil)" />
+                  <ellipse cx="200" cy="432" rx="104" ry="15" fill="var(--bark)" opacity=".18" />
+                </g>
+              </g>
+
+              <!-- the plant -->
+              <g class="grow__layer" style="--depth:.7">
+                <g class="grow__plant">
+                  <!-- seed -->
+                  <ellipse class="grow__seed" cx="200" cy="402" rx="11" ry="15" fill="var(--bark)" />
+
+                  <!-- main stem -->
+                  <path class="grow__stem" style="--len:320"
+                        d="M200,428 C200,382 192,346 200,304 C208,262 196,222 200,176"
+                        stroke="var(--moss)" stroke-width="9" stroke-linecap="round" />
+                  <!-- side branches -->
+                  <path class="grow__branch" style="--len:70;--d:1.72s" d="M198,318 C182,306 172,296 164,286"
+                        stroke="var(--moss)" stroke-width="5" stroke-linecap="round" />
+                  <path class="grow__branch" style="--len:70;--d:2.12s" d="M201,266 C216,254 226,246 236,236"
+                        stroke="var(--moss)" stroke-width="5" stroke-linecap="round" />
+
+                  <!-- leaves, unfurling one by one -->
+                  <g transform="translate(198,384) rotate(-158) scale(.62)">
+                    <g class="grow__leafwrap" style="--fr:2.2deg;--fd:.2s">
+                      <use class="grow__leaf" href="#leafShape" style="--d:1.48s;--r0:-18deg" fill="url(#gLeafA)" />
+                    </g>
+                  </g>
+                  <g transform="translate(201,346) rotate(-26) scale(.72)">
+                    <g class="grow__leafwrap" style="--fr:-2.4deg;--fd:.9s">
+                      <use class="grow__leaf" href="#leafShape" style="--d:1.78s;--r0:18deg" fill="url(#gLeafB)" />
+                    </g>
+                  </g>
+                  <g transform="translate(164,286) rotate(-172) scale(.82)">
+                    <g class="grow__leafwrap" style="--fr:2.6deg;--fd:1.4s">
+                      <use class="grow__leaf" href="#leafShape" style="--d:2.12s;--r0:-20deg" fill="url(#gLeafA)" />
+                    </g>
+                  </g>
+                  <g transform="translate(236,236) rotate(-18) scale(.86)">
+                    <g class="grow__leafwrap" style="--fr:-2.2deg;--fd:2s">
+                      <use class="grow__leaf" href="#leafShape" style="--d:2.44s;--r0:20deg" fill="url(#gLeafB)" />
+                    </g>
+                  </g>
+                  <g transform="translate(197,214) rotate(-146) scale(.7)">
+                    <g class="grow__leafwrap" style="--fr:2deg;--fd:2.6s">
+                      <use class="grow__leaf" href="#leafShape" style="--d:2.82s;--r0:-16deg" fill="url(#gLeafA)" />
+                    </g>
+                  </g>
+
+                  <!-- top sprout : same leaf language as the rest of the plant -->
+                  <g transform="translate(200,176)">
+                    <g class="grow__bud">
+                      <!-- left wing -->
+                      <g transform="rotate(-148) scale(.92)">
+                        <use class="grow__bud-leaf" style="--d:3.08s;--r0:-24deg" href="#leafShape" fill="url(#gLeafA)" />
+                      </g>
+                      <!-- right wing -->
+                      <g transform="rotate(-32) scale(.92)">
+                        <use class="grow__bud-leaf" style="--d:3.24s;--r0:24deg" href="#leafShape" fill="url(#gLeafB)" />
+                      </g>
+                      <!-- central upward leaf -->
+                      <g transform="translate(0,-8) rotate(-90) scale(.78)">
+                        <use class="grow__bud-leaf" style="--d:3.42s;--r0:0deg" href="#leafShape" fill="var(--olive)" />
+                      </g>
+                      <!-- sparkles crowning the sprout -->
+                      <path class="grow__spark" style="--d:3.6s"
+                            d="M0,-138 C4,-122 10,-116 26,-112 C10,-108 4,-102 0,-86 C-4,-102 -10,-108 -26,-112 C-10,-116 -4,-122 0,-138 Z"
+                            fill="var(--sand)" />
+                      <path class="grow__spark" style="--d:3.85s"
+                            d="M44,-116 C46,-108 49,-105 57,-103 C49,-101 46,-98 44,-90 C42,-98 39,-101 31,-103 C39,-105 42,-108 44,-116 Z"
+                            fill="var(--clay-soft)" />
+                      <path class="grow__spark" style="--d:4.05s"
+                            d="M-40,-104 C-38.6,-98 -36.4,-95.8 -30,-94 C-36.4,-92.2 -38.6,-90 -40,-84 C-41.4,-90 -43.6,-92.2 -50,-94 C-43.6,-95.8 -41.4,-98 -40,-104 Z"
+                            fill="var(--sky)" />
+
+                    </g>
+                  </g>
+
+
+
+                </g>
+              </g>
+
+              <!-- soft light motes -->
+              <g class="grow__layer" style="--depth:1.35">
+                <circle class="grow__mote" cx="128" cy="326" r="3.5" fill="var(--sand)" style="--d:2.8s;--dur:7.4s;--tx:14px" />
+                <circle class="grow__mote" cx="272" cy="214" r="3" fill="var(--sky)" style="--d:4.1s;--dur:8.2s;--tx:-12px" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <!-- Register modal -->
+  <div class="modal" id="registerModal" role="dialog" aria-modal="true" aria-labelledby="regTitle" aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" data-modal-close aria-label="Fermer">×</button>
+      <h3 id="regTitle" data-en="Register for Career Day">Inscription au Career Day</h3>
+      <p class="muted" data-en="Free for CPE Lyon students. Fill in the form and we'll send your confirmation.">Gratuit pour les étudiants de CPE Lyon. Remplissez le formulaire et vous recevrez votre confirmation.</p>
+      <form class="form" data-form data-success="Inscription enregistrée ! Vérifiez votre boîte mail.">
+        <div class="field"><label for="rn" data-en="Full name">Nom complet</label><input id="rn" name="name" type="text" required /><span class="err"></span></div>
+        <div class="field"><label for="re" data-en="Email">E-mail</label><input id="re" name="email" type="email" required /><span class="err"></span></div>
+        <div class="field"><label for="rr" data-en="I am a…">Je suis…</label>
+          <select id="rr" name="role" required>
+            <option value="" data-en="Choose one">Choisir</option>
+            <option data-en="Student">Étudiant·e</option><option data-en="Company">Entreprise</option><option data-en="Alumni">Alumni</option>
+          </select><span class="err"></span></div>
+        <button type="submit" class="btn btn--primary" data-en="Send registration">Envoyer l’inscription</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/grow.js"></script>
+</body>
+</html>
