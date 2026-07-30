@@ -29,8 +29,8 @@
 <header class="nav" id="nav">
   <div class="nav__inner">
     <a href="index.html" class="nav__logo" aria-label="Career Day, accueil">
-      <span class="nav__badge">CD</span>
-      <span>CAREER DAY</span>
+      <span class="nav__badge">LOGO</span>
+      <span>JDM 2026</span>
     </a>
     <nav class="nav__links" aria-label="Navigation principale">${linkHtml()}</nav>
     <div class="nav__actions">
@@ -79,7 +79,7 @@
     <div class="footer__stamp"><div data-en="THE FUTURE<br>IS GREEN">L’AVENIR<br>EST VERT</div></div>
   </div>
   <div class="footer__bar">
-    <span data-en="© 2026 Career Day CPE Lyon — All rights reserved">© 2026 Career Day CPE Lyon — Tous droits réservés</span>
+    <span data-en="2026 Career Day CPE Lyon — All rights reserved"> JDM 2026 CPE Lyon — Tous droits réservés</span>
     <span><a href="#" data-en="Legal">Mentions légales</a> · <a href="#" data-en="Privacy">Confidentialité</a></span>
   </div>
 </footer>`;
